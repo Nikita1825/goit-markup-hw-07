@@ -1562,7 +1562,7 @@ display: none;
     }
     .mailto {
         display: block;
-        margin-left: 18px;
+        margin-left: auto;
         
     }
     .logo {
