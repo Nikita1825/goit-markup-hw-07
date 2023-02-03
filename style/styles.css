@@ -144,7 +144,7 @@ color: var(--prime-text-color);
 }
 
 .contact-list:not( :last-child) {
-    margin-right: 40px;
+    margin-right: 0;
 } 
 .contact-list:hover {
     color: var(--accent-color);
