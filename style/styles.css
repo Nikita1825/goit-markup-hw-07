@@ -157,8 +157,8 @@ color: var(--prime-text-color);
     padding-top: 112px;
     padding-bottom: 112px;
     text-align: center;
-    width: 428px;
     max-width: 1440px;
+    
     margin-right: auto;
     margin-left: auto;
     height: 432px;
@@ -1562,7 +1562,7 @@ display: none;
     }
     .mailto {
         display: block;
-        margin-left: 118px;
+        margin-left: 18px;
         
     }
     .logo {
@@ -1576,7 +1576,7 @@ display: none;
     padding-top: 112px;
     padding-bottom: 128px;
     text-align: center;
-    width: 768px;
+    wdth: 768px;
     margin-right : auto;
     margin-left: auto;
     height: 436px;
