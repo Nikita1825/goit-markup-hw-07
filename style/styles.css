@@ -774,12 +774,7 @@ color: var(--white-text);
     margin-right: 80px;
 }
 
-.logo-container {
-    display: flex;
-    text-align: center;
-    flex-wrap: wrap;
-    justify-content: center;
-}
+
 .logo-media {
     padding-left: 80px;
     padding-right: 80px;
@@ -789,12 +784,7 @@ color: var(--white-text);
     padding-right: 156px;
     text-align: center;
 }
-.logo-container {
-    display: flex;
-    text-align: center;
-    flex-wrap: wrap;
-    justify-content: center;
-}
+
 .logo-media {
     padding-left: 80px;
     padding-right: 80px;
@@ -1668,7 +1658,8 @@ display: none;
 }
 .mailto {
     display: flex;
-    margin-left: 332px;
+    margin-left: auto;
+    gap: 40px;
    
 }
   .hero-section-one {
@@ -1676,7 +1667,7 @@ display: none;
     padding-top: 188px;
     padding-bottom: 188px;
     text-align: center;
-    width: 1440px;
+    max-width: 1440px;
     margin-right : auto;
     margin-left: auto;
     height: 600px;
@@ -1729,7 +1720,15 @@ display: none;
 .logo-media {
     margin-right: 120px;
 }
-
+.logo-container {
+    display: flex;
+    text-align: center;
+     flex-wrap: nowrap; 
+     justify-content: none;
+}
+.icons-container {
+    margin-right: 80px;
+}
 }
 
 
