@@ -1623,6 +1623,7 @@ display: none;
 }
 .icons-container {
     padding-left: 0;
+    padding-right: 0;
 }
 .logo-media {
     padding-right: 0;
@@ -1631,6 +1632,7 @@ display: none;
 .ending-text {
     margin-right: 0;
     margin-top: 16px;
+    text-align: start;
 }
 .title-footer {
     text-align: start;
@@ -1646,6 +1648,12 @@ display: none;
 }
 .btn-form-footer {
     width: 264px;
+}
+.logo-media  {
+    padding-left: 0;
+}
+.logo-ending {
+    padding-left: 0;
 }
 
  }
@@ -1718,6 +1726,10 @@ display: none;
     padding-top: 120px;
     padding-bottom: 120px;
 }
+.logo-media {
+    margin-right: 120px;
+}
+
 }
 
 
