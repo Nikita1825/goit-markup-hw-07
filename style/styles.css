@@ -175,7 +175,8 @@ line-height: 1.09;
 
 color: var(--white-text);
 margin-bottom: 48px;
-width: 318px;
+
+max-width: 320px;
 text-align: center;
 margin-left: auto;
 margin-right: auto;
@@ -699,8 +700,8 @@ text-align: center;
 font-weight: 400;
 letter-spacing: 0.02em;
 color: var(--white-background); 
-width: 268px;
-height: 110px;
+
+max-width: 264px;
 margin-left: auto;
 margin-right: auto;
 }
@@ -769,31 +770,19 @@ color: var(--white-text);
     flex-wrap: wrap;
     justify-content: center;
 }
-.icons-container {
-    margin-left: 120px;
-    margin-right: 80px;
-}
 
 
-.logo-media {
+/* .logo-media {
     padding-left: 80px;
     padding-right: 80px;
-}
+} */
 .logo-ending {
-     padding-left: 155px;
-    padding-right: 156px;
+     
     text-align: center;
 }
 
-.logo-media {
-    padding-left: 80px;
-    padding-right: 80px;
-}
-.logo-ending {
-    padding-left: 155px;
-    padding-right: 156px;
-    text-align: center;
-}
+
+
 .form-footer-primery {
     display:block;
 }
@@ -806,8 +795,8 @@ color: var(--white-text);
     margin-top: 72px;
 }
 .icons-container {
-    padding-left: 110px;
-    padding-right: 110px;
+    /* padding-left: 110px;
+    padding-right: 110px; */
     margin: 0;}
  
 
@@ -1498,7 +1487,7 @@ display: none;
  /*_________________ media _____________________*/
  @media screen  and (min-width:480px){
     .container {
-        width: 428px;
+       max-width: 428px;
 
     }
     
@@ -1511,7 +1500,7 @@ display: none;
     display: none;
 }
 .mobile-menu-open { 
-    margin-left: 249px;
+    margin-left: auto;
         
     background-color: transparent;
     padding: 0;
@@ -1528,7 +1517,7 @@ display: none;
 .input-footer {
 
 
-    width: 320px;
+    /* width: 320px; */
     max-width: 396px;}
 
  }
@@ -1543,7 +1532,7 @@ display: none;
   @media screen  and (min-width:768px){
 
     .container {
-        width: 768px;
+       max-width: 768px;
         
 
     }
@@ -1643,13 +1632,15 @@ display: none;
     padding-left: 0;
 }
 .logo-ending {
+    display: flex;
     padding-left: 0;
+    align-items: start;
 }
 
  }
  @media screen and (min-width: 1200px) {
 	.container {
-		width: 1158px;
+		max-width: 1158px;
 		padding-left: 15px;
 		padding-right: 15px;
 	}
