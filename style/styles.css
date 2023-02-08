@@ -216,14 +216,13 @@ margin-right: auto;
 .hero-section-two {
     padding-bottom: 120px;
 }
-.hero-section {
-    padding-top: 96px;
-    padding-bottom: 96px;
-}
+
 .one {
     text-align: center;
     display: inline-block;
     flex-wrap: wrap;
+    padding-top: 96px;
+    padding-bottom: 96px;
     
 
     
@@ -293,8 +292,8 @@ border-radius: 4px;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
 transition:  var(--main-transition);
 
-min-width: 408px;
-min-height: 584px;
+/* min-width: 408px;
+min-height: 584px; */
 
 background-color: #FCFCFC;
 }
@@ -331,11 +330,10 @@ height: 8px;
     fill: #FFFFFF;}
 
 .modal-container {
-    padding-left: 24px;
-    padding-right: 24px;
+    padding: 24px 16px;
     margin-left: auto;
     margin-right: auto;
-    width: 408px;
+    
 }
 
 .modal-title {
@@ -343,7 +341,7 @@ height: 8px;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    margin-top: 72px;
+    margin-top: 48px;
     margin-bottom: 14px;
 }
 .form-group{
@@ -417,7 +415,7 @@ height: 8px;
 .form-submit {
     display: flex;
     justify-content: center;
-    margin-bottom: 24px;
+    
 }
 .icon-form {
     
@@ -1508,7 +1506,7 @@ display: none;
     }
     
  }
- @media screen  and (max-width:768px) {
+ @media screen  and (max-width:767px) {
         .header-list {
     display: none;
 }
@@ -1550,6 +1548,14 @@ display: none;
         margin-left: auto;
         margin-right: auto;
     }
+    .modal {
+    width: 95%;
+    max-width: 392px;
+    height: 95%;
+   
+    overflow: scroll;
+}
+
 
  }
  @media screen  and (max-width:1200px) {
@@ -1682,6 +1688,21 @@ display: none;
     align-items: start;
 }
 
+.modal {
+    width: 408px;
+    
+}
+.modal-container {
+    padding: 24px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.hero-title-two {
+    text-align: left;
+}
+.hero-text {
+    text-align: left;
+}
  }
  @media screen and (min-width: 1200px) {
 	.container {
@@ -1887,4 +1908,23 @@ font-weight: 700;
     justify-content: space-between;
     display: flex;
     gap: 24px;
+  }
+
+  
+    @media screen  and (min-width:768px) and (max-width:1200px) {
+        .header-link {
+            padding-bottom: 51px;
+        }
+        .contact {
+    font-weight: 400;
+    font-size: 12px;
+line-height: 16px;
+margin-bottom: 4px;
+
+letter-spacing: 0.04em;
+    color: var(--prime-text-color);
+}
+    }
+  .hero-text {
+    text-align: left;
   }
