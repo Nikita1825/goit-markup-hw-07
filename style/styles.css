@@ -162,12 +162,28 @@ color: var(--prime-text-color);
     margin-right: auto;
     margin-left: auto;
     height: 432px;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(../img/people-office1\(1\).jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(../img/Dark-bg.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 
 }
+@media (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero-section-one {
+    background-image: linear-gradient(
+        to right,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../img/Dark-bg@2x.jpg);
+    background-size: cover;
+  }
+}
+
+
 .hero-title {
 font-weight: 700;
 font-size: 36px;
@@ -1565,12 +1581,26 @@ display: none;
     margin-right : auto;
     margin-left: auto;
     height: 436px;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(../img/people-office1\(1\).jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(../img/Dark-bg1.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 
     }
+    @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero-section-one {
+      background-image: linear-gradient(
+          to right,
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../img/Dark-bg1@2x.jpg);
+      background-size: cover;
+    }
+  }
   .one {
     display: flex;
     flex-wrap: wrap;
@@ -1668,12 +1698,26 @@ display: none;
     margin-right : auto;
     margin-left: auto;
     height: 600px;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(../img/people-office1\(1\).jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(../img/people-office\ 1.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 
     }
+    @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero-section-one {
+      background-image: linear-gradient(
+          to right,
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../img/people-office\ 1@2x.jpg);
+      background-size: cover;
+    }
+  }
      .one {
     display: flex;
     flex-wrap: wrap;
@@ -1805,12 +1849,22 @@ font-weight: 700;
     line-height: 1.111;
     letter-spacing: 0.02em;
     margin-top: 40px;
+    color: #2E2F42;
+  }
+  .mobile-link {
+font-weight: 700;
+    font-size: 36px;
+    line-height: 1.111;
+    letter-spacing: 0.02em;
+    margin-top: 40px;
+    color: #2E2F42;
   }
  .mobaile-contact-item-tel {
     font-weight: 600;
     font-size: 36px;
     line-height: 1.111;
     text-transform: capitalize;
+    color: var(--accent-color);
   }
   .mobaile-contact-item-mail {
    font-weight: 500;
