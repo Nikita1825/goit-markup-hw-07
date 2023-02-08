@@ -1541,6 +1541,15 @@ display: none;
     .mobaile-contact {
         margin-top: auto;
     }
+    .photo {
+        width: 260px;
+        height: 264px;
+    }
+    .team-link {
+        width: 260px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
  }
  @media screen  and (max-width:1200px) {
